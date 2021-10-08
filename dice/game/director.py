@@ -58,7 +58,7 @@ class Director:
         Args:
             self (Director): An instance of Director.
         """
-        print(f"\nYou rolled: {self.thrower.dice}")
+        print(f"\nYou rolled: {self.thrower.dices}")
         print(f"Your score is: {self.score}")
         if self.thrower.can_throw():
             choice = input("Roll again? [y/n] ")
